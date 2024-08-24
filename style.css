@@ -1,6 +1,7 @@
 *{
     padding: 0px;
     margin: 0px;
+    overflow-x: hidden;
     
 }
 
@@ -81,11 +82,16 @@ span{
 }
 
 .banner{
-    height: 100%;
+    height: 100vh;
     width: 100%;
+    overflow: hidden;
     >img {
-        height: 1000px;
-        width: 1522px;
+        height: 95vh;
+        width: 100%;
+        object-fit: cover; 
+        display: block;
+        position: absolute;
+      
     }
 }
 
